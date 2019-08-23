@@ -1,0 +1,6 @@
+Name: Ashley Ellis
+Class: COP4530-0001
+Assignment: Project 4
+Due date: April 5, 2019
+
+	The worst-case time complexity of the private member function makeEmpty( BinaryNode* &t ) in Big-O form is O(n).  N would depend upon the depth of the tree (i.e. how many nodes the tree has).  

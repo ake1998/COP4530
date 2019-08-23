@@ -1,0 +1,4 @@
+When analyzing the worst-case run-time complexity of the member function reverse() of the list
+would be O(n^2).  In the worst case, there would be n elements in the list such that the function
+has to complete n operations before it complete.  Since there are n elements in the list, and
+the operation has to be completed n times, the time complexity is O(n^2).

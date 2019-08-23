@@ -1,0 +1,11 @@
+/**Name: Ashley Ellis 
+   Class: COP4530-0001
+   Assignment: Project 4
+   Due date: April 5, 2019 **/
+
+proj4.x: bet.cpp proj4_driver.cpp
+	g++ -std=c++11 -Wall -pedantic bet.cpp proj4_driver.cpp -o proj4.x
+
+clean:
+	rm -f *.o *.x core.*
+

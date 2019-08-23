@@ -1,0 +1,6 @@
+
+proj5.x: passserver.cpp hashtable.h hashtable.hpp
+	g++ -std=c++11 -Wall -pedantic -lcrypt passserver.cpp proj5.cpp -o proj5.x
+clean:
+	rm -f *.o *.x core.*
+ 
